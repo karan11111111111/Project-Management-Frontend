@@ -1,0 +1,2 @@
+# Project-Management-Frontend
+ Designed a robust Project Management System frontend using ReactJS, JSX, CSS, and Tailwind CSS. The application offers a sleek interface tailored for efficient project tracking and management. Dynamic React components ensure seamless interaction and real-time updates, enhancing user productivity. CSS and Tailwind CSS create a visually appealing, customizable interface optimized for usability across devices, integrating intuitive design with powerful frontend technologies.
