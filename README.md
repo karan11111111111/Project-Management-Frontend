@@ -1,2 +1,8 @@
-# Project-Management-Frontend
- Designed a robust Project Management System frontend using ReactJS, JSX, CSS, and Tailwind CSS. The application offers a sleek interface tailored for efficient project tracking and management. Dynamic React components ensure seamless interaction and real-time updates, enhancing user productivity. CSS and Tailwind CSS create a visually appealing, customizable interface optimized for usability across devices, integrating intuitive design with powerful frontend technologies.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
