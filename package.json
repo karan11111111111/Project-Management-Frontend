@@ -1,6 +1,6 @@
 {
   "name": "project-managment-react",
-  "private": true,
+  "public": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
