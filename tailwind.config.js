@@ -1,5 +1,7 @@
+// tailwind.config.js
+
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   darkMode: ["class"],
   content: [
     './pages/**/*.{js,jsx}',
@@ -17,9 +19,6 @@ module.exports = {
       },
     },
     extend: {
-      
-     
-        
       colors: {
         rose: {
           50: '#fff1f2',
@@ -32,7 +31,8 @@ module.exports = {
           700: '#be123c',
           800: '#9f1239',
           900: '#881337',
-        },dark: {
+        },
+        dark: {
           50: '#2a000b',
           100: '#3b0010',
           200: '#4c0015',
