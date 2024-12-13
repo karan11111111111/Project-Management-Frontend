@@ -5,11 +5,11 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'dist',  // This ensures Vite places the build output in a 'dist' folder
+    outDir: 'dist',  // Output the build files to the 'dist' folder
   },
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),
+      '@': path.resolve(__dirname, './src'),  // Alias to simplify imports
     },
   },
 });
