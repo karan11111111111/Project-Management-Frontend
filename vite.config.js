@@ -10,6 +10,11 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: "dist",  // Ensure the build output goes into the 'dist' folder
+    outDir: "dist",  // Set the output directory to 'dist'
+    rollupOptions: {
+      output: {
+        dir: path.resolve(__dirname, "dist"),  // Ensure output directory path is correct
+      },
+    },
   },
 });
