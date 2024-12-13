@@ -1,20 +1,15 @@
-import path from "path";
-import react from "@vitejs/plugin-react";
-import { defineConfig } from "vite";
+import path from 'path';
+import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite';
 
 export default defineConfig({
   plugins: [react()],
+  build: {
+    outDir: 'dist',  // This ensures Vite places the build output in a 'dist' folder
+  },
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
-  build: {
-    outDir: "dist",  // Set the output directory to 'dist'
-    rollupOptions: {
-      output: {
-        dir: path.resolve(__dirname, "dist"),  // Ensure output directory path is correct
-      },
+      '@': path.resolve(__dirname, './src'),
     },
   },
 });
